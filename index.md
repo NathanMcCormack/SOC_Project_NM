@@ -1,4 +1,5 @@
 # **SOC Proejct**
+# **Nathan McCormack**
 ## **Initial Simulation File**
 ### **Colour cycle Code Simulation**
 Here we can see that Red, Blue and Green are set to 1111 when they are on. When two colours are on at the same time, they
