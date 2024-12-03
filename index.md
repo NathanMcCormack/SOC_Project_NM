@@ -10,3 +10,9 @@ create a different colour.
 When generating the colour stripes, we add in row and coloumn to create the stripes.
 
 ![image](https://github.com/user-attachments/assets/d070f62f-18c8-4b1e-9b1b-6b14cc2adf8f)
+
+### **Editing Color Stripes**
+Here I have experimented with the rows, columns and colours to gain a better understanidng of how the code works.
+
+![image](https://github.com/user-attachments/assets/3fd7d042-7698-4cd8-926a-f5eaafd40f80)
+
