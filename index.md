@@ -24,3 +24,8 @@ sequence.
 
 ![image0](https://github.com/user-attachments/assets/73f68ca1-6661-4fce-abd2-2ca8aa382fb1)
 
+![image](https://github.com/user-attachments/assets/2c776cc9-c8fa-4246-837b-f33e7cac8913)
+
+![image](https://github.com/user-attachments/assets/e3c9f5b5-6fd9-4fa1-8796-33990b017d48)
+
+![image](https://github.com/user-attachments/assets/ec3bfc22-8939-40d1-bc46-633afac25f00)
