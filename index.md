@@ -30,6 +30,8 @@ I then adjusted the dimensions of the traffic light to make it into a suitable s
 ![image](https://github.com/user-attachments/assets/2c776cc9-c8fa-4246-837b-f33e7cac8913)
 
 Centre_X and Centre_Y are the centre coordanites of the rectangle, the width and height of the traffic light are TRAFFIC_LIGHT_WIDTH and TRAFFIC_LIGHT_HEIGHT. The code divides the height and width by 2 and adds/subtracts the value from the center coordanites to ensure the traffic light is centered and goes an equal distance in each direction. "col>= ... && col<..." ensures that the column values lie between the two boundries and the same code is implemented for rows.
+![image](https://github.com/user-attachments/assets/eac66982-cc58-44ac-adeb-02d357817858)
+
 
 ## **Creating Circles for Lights**
 For creating the circles we need the following: 
@@ -45,12 +47,14 @@ Where:
 - *(x,y)* is any point on the plane
 
 In our case:
--*h* = CENTER_X
--*k* = CENTER_X - LIGHT_SPACING (positions circle correctly within the traffic light)
--*x,y* = columns and rows accordingly.
-![image](https://github.com/user-attachments/assets/e3c9f5b5-6fd9-4fa1-8796-33990b017d48)
+- *h* = CENTER_X
+- *k* = CENTER_X - LIGHT_SPACING (positions circle correctly within the traffic light)
+- *x,y* = columns and rows accordingly.
+
+![image](https://github.com/user-attachments/assets/09fd22a9-6e3d-4e19-b706-59755441e92d)
 
 For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle.
+
 ![image](https://github.com/user-attachments/assets/ec3bfc22-8939-40d1-bc46-633afac25f00)
 
 ![image](https://github.com/user-attachments/assets/300ad055-eb70-4a68-9a4b-fe6aa041f7ff)
