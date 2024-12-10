@@ -53,7 +53,17 @@ In our case:
 
 This checks if the squared distance ( *(x-h)<sup>2</sup>* ) from the pixel to the circles center is less than or equal to the squared radius *(r<sup>2</sup>)* of the circle. If it is, the pixel lies within the circle.
 
+I used the same code for the other two circles Green and Amber, but I changed the binary values for red, blue and green to get the desired colours. To simulate the lights being dimmed or turned off i changed the binary value from 1111 to 1010, this halved the value which resulted in a darker colour.
+
 ![image](https://github.com/user-attachments/assets/09fd22a9-6e3d-4e19-b706-59755441e92d)
+
+Below is the final output of my project. As you can see there are diferent states, each of which have different light turned ono/off to simulate a real world traffic light sequence. I will explain the code for the sequence.
+![image8](https://github.com/user-attachments/assets/81c513a1-441f-41f8-bf41-365f0cecb1a5) ![image7](https://github.com/user-attachments/assets/9d319379-7a7e-42c9-9229-b5b082642d0e)
+![image9](https://github.com/user-attachments/assets/96610782-9982-448d-8bb2-9be553915942)
+![image5](https://github.com/user-attachments/assets/cf4fb656-21aa-45b1-88ee-409ca5cd0370)
+![image4](https://github.com/user-attachments/assets/5a60d643-0565-45ce-88f6-823b2b38665a)
+
+## **Traffic Light Pole**
 
 For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle.
 
@@ -64,11 +74,6 @@ For the traffic light pole we use the same code as the traffic light so that it 
 ![image](https://github.com/user-attachments/assets/6cbde2f8-8f7c-4cf7-838e-57f8ba4a25e8)
 
 ![image](https://github.com/user-attachments/assets/b81bb492-3e13-45dc-a79a-733fea6697c8)
-
-![image8](https://github.com/user-attachments/assets/81c513a1-441f-41f8-bf41-365f0cecb1a5) ![image7](https://github.com/user-attachments/assets/9d319379-7a7e-42c9-9229-b5b082642d0e)
-![image9](https://github.com/user-attachments/assets/96610782-9982-448d-8bb2-9be553915942)
-![image5](https://github.com/user-attachments/assets/cf4fb656-21aa-45b1-88ee-409ca5cd0370)
-![image4](https://github.com/user-attachments/assets/5a60d643-0565-45ce-88f6-823b2b38665a)
 
 ![image](https://github.com/user-attachments/assets/8052e150-c3bd-41cb-aa41-f50a83ed8d9f)
 
