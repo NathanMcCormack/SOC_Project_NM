@@ -51,6 +51,8 @@ In our case:
 - *k* = CENTER_X - LIGHT_SPACING (positions circle correctly within the traffic light)
 - *x,y* = columns and rows accordingly.
 
+This checks if the squared distance ( *(x-h)<sup>2</sup>* ) from the pixel to the circles center is less than or equal to the squared radius *(r<sup>2</sup>)* of the circle. If it is, the pixel lies within the circle.
+
 ![image](https://github.com/user-attachments/assets/09fd22a9-6e3d-4e19-b706-59755441e92d)
 
 For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle.
