@@ -30,6 +30,7 @@ I then adjusted the dimensions of the traffic light to make it into a suitable s
 ![image](https://github.com/user-attachments/assets/2c776cc9-c8fa-4246-837b-f33e7cac8913)
 
 Centre_X and Centre_Y are the centre coordanites of the rectangle, the width and height of the traffic light are TRAFFIC_LIGHT_WIDTH and TRAFFIC_LIGHT_HEIGHT. The code divides the height and width by 2 and adds/subtracts the value from the center coordanites to ensure the traffic light is centered and goes an equal distance in each direction. "col>= ... && col<..." ensures that the column values lie between the two boundries and the same code is implemented for rows.
+
 ![image](https://github.com/user-attachments/assets/eac66982-cc58-44ac-adeb-02d357817858)
 
 
@@ -58,7 +59,8 @@ I used the same code for the other two circles Green and Amber, but I changed th
 ![image](https://github.com/user-attachments/assets/09fd22a9-6e3d-4e19-b706-59755441e92d)
 
 Below is the final output of my project. As you can see there are diferent states, each of which have different light turned ono/off to simulate a real world traffic light sequence. I will explain the code for the sequence.
-![image8](https://github.com/user-attachments/assets/81c513a1-441f-41f8-bf41-365f0cecb1a5) ![image7](https://github.com/user-attachments/assets/9d319379-7a7e-42c9-9229-b5b082642d0e)
+
+![image8](https://github.com/user-attachments/assets/81c513a1-441f-41f8-bf41-365f0cecb1a5) 
 ![image9](https://github.com/user-attachments/assets/96610782-9982-448d-8bb2-9be553915942)
 ![image5](https://github.com/user-attachments/assets/cf4fb656-21aa-45b1-88ee-409ca5cd0370)
 ![image4](https://github.com/user-attachments/assets/5a60d643-0565-45ce-88f6-823b2b38665a)
@@ -67,7 +69,10 @@ Below is the final output of my project. As you can see there are diferent state
 
 For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle.
 
+
 ![image](https://github.com/user-attachments/assets/ec3bfc22-8939-40d1-bc46-633afac25f00)
+
+![image7](https://github.com/user-attachments/assets/9d319379-7a7e-42c9-9229-b5b082642d0e)
 
 ![image](https://github.com/user-attachments/assets/300ad055-eb70-4a68-9a4b-fe6aa041f7ff)
 
