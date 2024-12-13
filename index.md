@@ -101,7 +101,7 @@ The next state logic is a switch case within an always block. The switch stateme
 
 ![image](https://github.com/user-attachments/assets/a9d566b7-52b5-4180-b8c2-342b3d76fbdf)
 
-
+Below is the Synthesis Design Schematic, this gives us a detailed view and understanding of the hardware behind the project. We can see our two inputs clk and rst connected to the clock, which is then connected to the two source files VGASync and Colourstripes. When we click into ColourStripes, we can see a detailed view of all the gates used to generate the images.
 
 ![image](https://github.com/user-attachments/assets/300ad055-eb70-4a68-9a4b-fe6aa041f7ff)
 
@@ -116,3 +116,6 @@ Here we can see a register, AND gate, Multiplexer, and OR gate. These are all us
 ![image](https://github.com/user-attachments/assets/f5c2a9dd-fd6f-4105-bb41-5292d54f45cf)
 ![image](https://github.com/user-attachments/assets/d16fba90-2ab2-47d3-afdd-e45aba39c4d0)
 ![image](https://github.com/user-attachments/assets/499a0226-55fc-43fc-b4c2-abe3e7470921)
+
+## **Conclusion**
+In this project I started off with a ColourStripes source file which outputted multiple vertical colourd lines, through th eknowledge gained from previous labs and extensive research online, I was able to succesfully create a traffic light simulator which showed multiple images of a traffic light in different sequences. I did this using a state machine. From completing this project, I have a much stronger understanding of SOC concepts, including VGA signal generation and state machine design.
