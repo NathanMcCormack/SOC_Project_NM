@@ -67,25 +67,52 @@ Below is the final output of my project. As you can see there are diferent state
 
 ## **Traffic Light Pole**
 
-For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle.
-
+For the traffic light pole we use the same code as the traffic light so that it shars the same centre line, but in this case we divide the width by 4 instead of 2, so we get a more narrow rectangle. "3'd0/1/2" are a 3-bit representation of the numerical values. I assigned parameter names to these values as it made it more usale for future use.
 
 ![image](https://github.com/user-attachments/assets/ec3bfc22-8939-40d1-bc46-633afac25f00)
 
 ![image7](https://github.com/user-attachments/assets/9d319379-7a7e-42c9-9229-b5b082642d0e)
+
+## **State Machine**
+
+### **State Definitions**
+This code uses localparams to define constants that represent the traffc light sequence. "3'd0/1/2" are a 3-bit representation of the numerical values. I assigned parameter names to these values as it made it more usale for future use. I set the state duration I used "32'd200_000_000" which create a 2 second duration length at a 200MHz clock.
+
+![image](https://github.com/user-attachments/assets/99d235be-9555-4df0-b5ea-e0d46ec7b51a)
+
+### **State Machine Logic**
+
+Here we have a few if statements within an always block. The always block is triggered by the positive dge of the clock or reset signal. This ensures that the sequences occur in sync with the clock, but alos reset when needed.
+
+If(rst)
+- The state is set to red. 
+- The counter is reset back to 0.
+
+If(counter >= STATE_DURATION)
+- The state goes to next state
+- The counter resets back to 0
+
+Else (Neither of the if statement are triggered)
+- The counter increments by 1 for each clock cycle, this tracks the duration for each state.
+
+![image](https://github.com/user-attachments/assets/2bbeb262-a8e9-477b-9ab9-4bff9504a0b7)
+
+The next state logic is a switch case within an always block. The switch statement takes in the current state and changes the value of "nextState" to the correct state.
+
+![image](https://github.com/user-attachments/assets/a9d566b7-52b5-4180-b8c2-342b3d76fbdf)
+
+
 
 ![image](https://github.com/user-attachments/assets/300ad055-eb70-4a68-9a4b-fe6aa041f7ff)
 
 ![image](https://github.com/user-attachments/assets/6cbde2f8-8f7c-4cf7-838e-57f8ba4a25e8)
 
 ![image](https://github.com/user-attachments/assets/b81bb492-3e13-45dc-a79a-733fea6697c8)
-
 ![image](https://github.com/user-attachments/assets/8052e150-c3bd-41cb-aa41-f50a83ed8d9f)
 
+Here we can see a register, AND gate, Multiplexer, and OR gate. These are all used to control and pass logic states to create my project.
+
 ![image](https://github.com/user-attachments/assets/3469007c-3324-49ae-b5b0-530c0112a4dd)
-
 ![image](https://github.com/user-attachments/assets/f5c2a9dd-fd6f-4105-bb41-5292d54f45cf)
-
 ![image](https://github.com/user-attachments/assets/d16fba90-2ab2-47d3-afdd-e45aba39c4d0)
-
 ![image](https://github.com/user-attachments/assets/499a0226-55fc-43fc-b4c2-abe3e7470921)
